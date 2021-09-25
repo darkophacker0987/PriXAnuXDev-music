@@ -20,20 +20,22 @@ from SumikoMusic.config import ASSISTANT_NAME
 from SumikoMusic.config import PROJECT_NAME
 from SumikoMusic.config import SUPPORT_GROUP
 from SumikoMusic.config import UPDATES_CHANNEL
-class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
-      HELP_MSG = [
+class Messages(): 
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n"""𝐇𝐞𝐲, 𝐈'𝐦 𝐕𝐜 𝐁𝐨𝐭❤️🔥. 
+𝐈 𝐂𝐚𝐧 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭.
+𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐅𝐫𝐞𝐞𝐥𝐲! 
+/help - 𝐓𝐨 𝐆𝐞𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.✅""" HELP_MSG = [
         ".",
 f"""
 **Hey 👋 Welcome back to {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+✰ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+✰ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 """,
 
 f"""
-**Setting up**
+**𝗦𝗲𝘁𝘁𝗶𝗻𝗴 𝗨𝗽**
 
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
@@ -46,9 +48,9 @@ f"""
 3) Now send commands in linked group
 """,
 f"""
-**Commands**
+**𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒**
 
-**=>> Song Playing 🎧**
+**🎶 𝗦𝗼𝗻𝗴 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 🎵**
 
 - /play: Play the requestd song
 - /play [yt url] : Play the given yt url
@@ -56,7 +58,7 @@ f"""
 - /splay: Play song via jio saavn
 - /ytplay: Directly play song via Youtube Music
 
-**=>> Playback ⏯**
+**🎶 𝗣𝗹𝗮𝘆𝗯𝗮𝗰𝗸 🎵**
 
 - /player: Open Settings menu of player
 - /skip: Skips the current track
@@ -70,9 +72,9 @@ f"""
 """,
 
 f"""
-**=>> Channel Music Play 🛠**
+**🎶 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆 🎵**
 
-⚪️ For linked group admins only:
+🔥 For linked group admins only:
 
 - /cplay [song name] - play song you requested
 - /csplay [song name] - play song you requested via jio saavn
@@ -87,7 +89,7 @@ f"""
 
 channel is also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+🔥 If you donlt like to play in linked group:
 
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
@@ -97,28 +99,28 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 """,
 
 f"""
-**=>> More tools 🧑‍🔧**
+**🎶 𝗠𝗼𝗿𝗲 𝗧𝗼𝗼𝗹𝘀 🎵**
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
 f"""
-**=>> Song Download 🎸**
+**🎶 𝗦𝗼𝗻𝗴 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 🎵**
 
 - /video [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
 
-**=>> Search Tools 📄**
+**🔥 𝗦𝗲𝗮𝗿𝗰𝗵 𝗧𝗼𝗼𝗹𝘀 📄**
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
 """,
 
 f"""
-**=>> Commands for Sudo Users ⚔️**
+**🔥🎶 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗙𝗼𝗿 𝗦𝘂𝗱𝗼 𝗨𝘀𝗲𝗿𝘀 🎵🔥**
 
  - /userbotleaveall - remove assistant from all chats
  - /broadcast <reply to message> - globally brodcast replied message to all chats
