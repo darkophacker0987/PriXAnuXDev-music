@@ -21,8 +21,7 @@ from SumikoMusic.config import PROJECT_NAME
 from SumikoMusic.config import SUPPORT_GROUP
 from SumikoMusic.config import UPDATES_CHANNEL
 class Messages(): 
-      START_MSG = "**𝐇𝐞𝐲 👋 [{}](tg://user?id={})!**\n\n★𝐈'𝐦 𝐕𝐜 𝐁𝐨𝐭❤️🔥.𝐈 𝐂𝐚𝐧 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭.
-𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐅𝐫𝐞𝐞𝐥𝐲!/help - 𝐓𝐨 𝐆𝐞𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.✅" 
+      START_MSG = "**𝐇𝐞𝐲 👋 [{}](tg://user?id={})!**\n\n𝐈'𝐦 𝐕𝐜 𝐁𝐨𝐭❤️🔥.𝐈 𝐂𝐚𝐧 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 & 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭.𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐅𝐫𝐞𝐞𝐥𝐲!\n\n/help - 𝐓𝐨 𝐆𝐞𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.✅" 
       HELP_MSG = [
         ".",
 f"""
