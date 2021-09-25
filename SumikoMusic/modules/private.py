@@ -74,7 +74,13 @@ def _help(client, message):
     client.send_message(chat_id = message.chat.id,
         text = tr.HELP_MSG[1],
         parse_mode="markdown",
-        V('help+'))
+        disable_web_page_preview=True,
+        disable_notification=True,
+        reply_markup = InlineKeyboardMarkup(map(1)),
+        reply_to_message_id = message.message_id
+    )
+
+help_callback_filter = filters.create(lambda _, __, query: query.data.startswith('help+'))
 
 @Client.on_callback_query(help_callback_filter)
 def help_answer(client, callback_query):
@@ -124,3 +130,4 @@ async def ghelp(_, message: Message):
             ]
         ),
     )
+
