@@ -20,7 +20,8 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from pyrogram.types import Messages
+from pyrogram.types import Message
+from SumikoMusic.config import SOURCE_CODE
 from SumikoMusic.config import ASSISTANT_NAME
 from SumikoMusic.config import PROJECT_NAME
 from SumikoMusic.config import SUPPORT_GROUP
@@ -37,15 +38,15 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "★ Add me to your Group ★", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "✰Updates✰", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🔥ßƐSŦĪƐS ZᎾИƐ🔥", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🎶Oᴡɴᴇʀ❤🔥", url=f"https://t.me/itz_cyberking_xd")
+                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
                 ]
             ]
         ),
@@ -97,7 +98,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🎶Oᴡɴᴇʀ❤🔥', url=f"https://t.me/itz_cyberking_xd")],
+            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
