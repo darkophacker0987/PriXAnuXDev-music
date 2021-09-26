@@ -106,7 +106,7 @@ def map(pos):
             [InlineKeyboardButton("➕Aᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '🔮 Channel 🔮', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '🔥ßƐSŦĪƐS ZᎾИƐ🔥', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/itz_cyberking_xd")],
+            [InlineKeyboardButton(text = '🎶Oᴡɴᴇʀ❤🔥', url=f"https://t.me/itz_cyberking_xd")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
