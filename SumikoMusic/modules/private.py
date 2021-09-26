@@ -41,10 +41,10 @@ def _start(client, message):
                         "🎶Oᴡɴᴇʀ❤🔥", url="https://t.me/itz_cyberking_xd")
                   ],[
                     InlineKeyboardButton(
-                        "🔥ßƐSŦĪƐS ZᎾИƐ🔥", url="https://t.me/{SUPPORT_GROUP}"
+                        "🔥ßƐSŦĪƐS ZᎾИƐ🔥", url="https://t.me/friends_forever_143"
                     ),
                     InlineKeyboardButton(
-                        "🔮 Channel 🔮", url="https://t.me/{UPDATE_CHANNEL}"
+                        "🔮 Channel 🔮", url="https://t.me/electro_updates"
                     )    
                 ],[ 
                     InlineKeyboardButton(
