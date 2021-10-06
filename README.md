@@ -3,7 +3,7 @@
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/darkophacker0987/PrixAnuXDevMusic
-$ cd SumikoMusic
+$ cd ElctroMusic
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
