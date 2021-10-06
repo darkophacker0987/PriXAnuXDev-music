@@ -1,5 +1,6 @@
 ##DEPLOY
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/darkophacker0987/PriXAnuXDev-Music.git)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/darkophacker0987/PriXAnuXDev-Music.git)
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
