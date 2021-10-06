@@ -1,46 +1,8 @@
-<h1 align="centre">SumikoMusic</h1>
-
-### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-
-
-<p align="center">
-  <img src="https://telegra.ph/file/5f3177b9e24763db285d5.jpg">
-</p>
-
-<h2> Whats new 🔥 </h2>
-
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Channel Music Play
-
-## Deployment
-
-### Config
-
-Copy `example.env` to `.env` and fill it with your credentials.
-
-
-
-## The easiest way to deploy this Bot
-### HEROKU
-<a href="https://heroku.com/deploy?template=https://github.com/iisgaurav/SumikoMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-### StringSession
-
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@iisgaurav/AuraXVCBot#main.py) 
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/iisgaurav/SumikoMusic
+$ git clone https://github.com/darkophacker0987/PrixAnuXDevMusic
 $ cd SumikoMusic
 # Upgrade sources
 # Install All Requirements 
@@ -48,7 +10,7 @@ $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m SumikoMusic
+$ python(3) -m ElectroMusic
 ```
 
 ### Commands for Group 🛠
@@ -101,8 +63,8 @@ If you don't like to play in linked channel:
 
 
 ## Support
-- [Channel](https://telegram.dog/VCBots)
-- [Group](https://telegram.dog/VCSupport)
+- [Channel](https://telegram.dog/ELECTRO_UPDATES)
+- [Group](https://telegram.dog/ELECTROBOT_SUPPORT)
 
 
 
@@ -112,13 +74,8 @@ If you don't like to play in linked channel:
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbest): Callsmusic Developer
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork SumikoMusic won't exist. 
-SumikoMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork ElelctroMusic won't exist. 
+ElectroMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
 
 #### Contribtors
-- [iisgaurav](https://github.com/iisgaurav): Dev
-- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
-- [SumikoMusic](https://github.com/TeamOfDaisyX/SumikoMusic)
-- [Hamker Cat](https://github.com/thehamkercat/)
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
+- [CYBERKING](https://github.com/darkophacker0987): Dev
